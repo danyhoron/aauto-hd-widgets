@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout android:id="@+id/fragment_container"-->
+<!--    android:background="@drawable/background_incar"-->
+<!--    android:layout_width="fill_parent"-->
+<!--    android:layout_height="fill_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android" />-->
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADEDAD"
+    android:columnCount="2"
+    android:rowCount="3"
+    tools:context=".car.MainCarActivity">
+
+    <FrameLayout
+        android:id="@+id/carFrame01"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+    <FrameLayout
+        android:id="@+id/carFrame02"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+    <FrameLayout
+        android:id="@+id/carFrame03"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+    <FrameLayout
+        android:id="@+id/carFrame04"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+</GridLayout>
